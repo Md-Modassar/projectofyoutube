@@ -1,0 +1,92 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 250px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/008/657/873/original/cartoon-rabbit-couples-with-butterfly-vector.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    transition: transform 0.3s ease ;
+    position: relative;
+}
+.card:hover{
+    transform: scale(1.05);
+
+}
+.heart{
+  display: flex;
+  position: absolute;
+  height: 150px;
+  width: 200px;
+  color: white;
+  top: 30%;
+  right: 10%;
+  transition: transform 0.3s ease;
+
+}
+.heart:hover{
+    transform: scale(1.3);
+}
+.item{
+    display: flex;
+    margin-top: 17rem;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.profile img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 174, 0);
+
+}
+.profile span{
+    font-size: 13px;
+    color: white;
+}
+.profile button{
+    border: 2px solid rgb(245, 243, 243);
+    background: none;
+    color: aliceblue;
+    border-radius: 5px;
+
+    
+}
+.icon{
+    position: absolute;
+    top: 20%;
+    right:15%;
+    align-items: center;
+    justify-content: center;
+
+}
+.icon1{
+    height: 40px;
+    width: 100px;
+    color: white;
+}
+.red-heart{
+    height: 40px;
+    width: 100px;
+    color: rgb(232, 21, 21);
+}
+.icon p{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 20px;
+}
+.card p{
+    font-size: 16px;
+    color: white;
+    margin-left: 10px;
+}
+
+
