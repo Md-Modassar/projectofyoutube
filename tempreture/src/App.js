@@ -1,14 +1,12 @@
 import './App.css';
-import Card from './components/card/Card';
-import Todolist from './components/todo/Todolist';
-
-
-
+import Tempreture from './components/temperture/Tempreture';
 
 function App() {
+  
+
   return (
     <div className='app'>
-     <Todolist/>
+     <Tempreture/>
     </div>
   );
 }

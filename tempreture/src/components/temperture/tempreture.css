@@ -1,0 +1,55 @@
+.div{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 25%;
+    background: green;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+.div span{
+    display: flex;
+    height: 50%;
+    width: 60%;
+    
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.btn{
+    display: flex;
+    gap: 10px;
+}
+
+.btn button{
+    height: 3rem;
+    width: 5rem;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+
+}
+.btn button:nth-of-type(1):hover{
+    height: 3rem;
+    width: 4.5rem;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(108, 194, 247);
+    cursor: pointer;
+
+}
+.btn button:nth-of-type(2):hover{
+    height: 3rem;
+    width: 4.5rem;
+    font-size: 25px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(229, 243, 28);
+    cursor: pointer;
+
+}
+
