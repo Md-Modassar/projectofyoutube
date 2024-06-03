@@ -1,0 +1,190 @@
+.shose{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-image: url("https://m.media-amazon.com/images/I/816lkFTOxTL._AC_SX675_.jpg");
+    
+}
+.s-header{
+    display: flex;
+    height: 10%;
+    width: 50%;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.h-logo{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: -1px;
+    margin-left: 10px;
+}
+.s-menu{
+   display: flex;
+   gap: 20px;
+    
+}
+.s-menu span{
+    font-size: 15px;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.icons{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.s-home{
+    display: flex;
+    height: 40%;
+    width: 50%;
+    background: rgb(248, 220, 225);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.s-home-left{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 45%;
+    justify-content: center;
+
+}
+.s-home-left span{
+    font-size: 35px;
+    line-height: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.s-home-left button {
+    height: 25px;
+    width: 75px;
+    font-size: 10px;
+    border-radius: 20px;
+    border: none;
+    background: black;
+    color: white;
+    margin-top: 15px;
+
+}
+.s-home-right{
+    display: flex;
+    height: 95%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.s-home-right span{
+    font-size: 220px;
+    letter-spacing: -10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 2px pink;
+    color: transparent;
+    
+    
+}
+.s-home-right img{
+    position: absolute;
+    height: 180px;
+    width: 280px;
+}
+.s-bottom{
+    display: flex;
+    height: 10%;
+    width: 50%;
+    background:rgb(248, 220, 225);
+    align-items: center;
+    border-top: 1px solid pink;
+    justify-content: center;
+    gap: 50px;
+
+
+}
+.s-bottom button{
+    height: 25px;
+    width: 75px;
+    border-radius: 20px;
+    font-size: 10px;
+    border: 1.5px solid black;
+    background: none;
+    color: black;
+}
+.s-bottom span{
+    font-size: 13px;
+    letter-spacing: -1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.s-container{
+    display: flex;
+    height: 50%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    background: white;
+
+
+}
+.s-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    width: 110px;
+    background: rgb(71, 83, 65);
+    gap: 10px;
+
+}
+.s-card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    width: 110px;
+    background: pink;
+    gap: 10px;
+
+}
+.s-card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    width: 110px;
+    background: rgb(50, 49, 50);
+    gap: 10px;
+
+}
+.s-card-span{
+    font-size: 13px;
+    color: aliceblue;
+    font-weight: 200;
+    margin-top: 60px;
+
+}
+.s-card-btn{
+    height: 24px;
+    width: 70px;
+    font-size: 10px;
+    border-radius: 20px;
+    border: 1.2px solid black;
+}
+.s-card-img{
+    position: absolute;
+    height: 90px;
+    width: 82px;
+    top: 10px;
+}
+
